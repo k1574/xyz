@@ -1,0 +1,6 @@
+MINIFY = minify
+PUBDIR = pub
+PPDIR = pp
+INCDIR = inc
+PP = pp
+
