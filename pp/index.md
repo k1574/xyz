@@ -1,17 +1,16 @@
-k1547.xyz
+k1574.xyz
 =========
 
-Intro
------
+What is that?
+-------------
 
-Hi. I'm k1574. It's my [web][gopher]site. (depends on how you access it)
-Here you can find the content about things I'm interested in, such as:
+Hi. I'm k1574, a merc. It's my site.
 
-* Code, programming, maths, PCs etc;
-* Images, drawings, references, memes, meme templates etc;
-* Videos, montages, VIDEO-memes etc;
-* Any kinds of games;
-* Much more.
+You can find here:
+
+* Posts about everything I'm interested in;
+* Images: drawings, references, memes, meme templates etc;
+* Videos: of my production, series, memes etc ;
 
 What're you interested in?
 * [Posts,](/post/index.htm)

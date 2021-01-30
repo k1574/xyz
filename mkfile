@@ -46,6 +46,14 @@ tree:V:
 
 run:V: clean
 	goblin ls $PPDIR | entr mk	
+sync:V:
+	rsync -a --delete $PUBDIR $RPUBDIR
+
+syncrun:VQ:
+	while(true){
+		sleep 1
+		mk sync > /dev/null
+	}
 
 clean:V:
 	rm -f $TGT
