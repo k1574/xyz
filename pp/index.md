@@ -4,7 +4,7 @@ k1574.xyz
 What is that?
 -------------
 
-Hi. I'm k1574, a merc. It's my site.
+Hi. I'm k1574, a m3rc. It's my site.
 
 You can find here:
 
@@ -13,7 +13,7 @@ You can find here:
 * Videos: of my production, series, memes etc ;
 
 What're you interested in?
-* [Posts,](/post/index.htm)
-* [Images,](/img/index.htm)
-* [Videos.](/vid/index.htm)
+* [Posts,](/post/)
+* [Images,](/img/)
+* [Videos.](/vid/)
 

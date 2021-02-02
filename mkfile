@@ -14,7 +14,13 @@ for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
 }
 '}
 
-BUILDFILE = $PUBHTMFILE $PUBMDFILE
+PUBTXTFILE = `{eval '
+for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
+	~ $i *.txt && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
+}
+'}
+
+BUILDFILE = $PUBHTMFILE $PUBMDFILE $PUBTXTFILE
 WEBFILE = $HTMFILE
 
 INC = `{goblin ls -r 100 inc}
@@ -23,10 +29,10 @@ TGT = $BUILDFILE
 all:VQ: build
 build:V: $PUBDIR $TGT
 minify:V: build
-	for(i in $WEBFILE)
+	for(i in $PUBHTMFILE)
 		$MINIFY $i -o $i
 
-%.pp %.jpg %.png %.svg %.txt %.mp4 %.m3 %.mkv :N:
+%.jpg %.png %.svg %.mp4 %.m3 %.mkv :N:
 
 $PUBDIR:
 	mkdir -p $target
@@ -38,6 +44,10 @@ $PUBDIR/%.htm : $INC $PPDIR/%.htm $PUBDIR/%.md
 $PUBDIR/%.md : $INC $PPDIR/%.md
 	mkdir -p `{dirname $target}
 	$PP $PPDIR/$stem.md > $PUBDIR/$stem.md
+
+$PUBDIR/%.txt : $INC $PPDIR/%.txt
+	mkdir -p `{dirname $target}
+	$PP $PPDIR/$stem.txt > $PUBDIR/$stem.txt
 
 $PPDIR/% :N:
 
