@@ -1,5 +1,5 @@
 <{< inc/tg/hd}>
 <{< inc/hd/default}>
 <{< inc/tg/bd}>
-<{! md2htm pub/<{$ dirname}>/index.md }>
+<{! md2htm pub/<{$ name}>/index.md }>
 <{< inc/tg/tl}>

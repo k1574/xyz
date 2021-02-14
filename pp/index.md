@@ -4,16 +4,15 @@ k1574.xyz
 What is that?
 -------------
 
-Hi. I'm k1574, a m3rc. It's my site.
+Hi. I'm k1574. It's my site.
 
 You can find here:
 
-* Posts about everything I'm interested in;
-* Images: drawings, references, memes, meme templates etc;
-* Videos: of my production, series, memes etc ;
+* [Posts,](/msg)
+* [Documents,](/doc)
+* [Images,](/img)
+* [Videos.](/vid)
 
-What're you interested in?
-* [Posts,](/post/)
-* [Images,](/img/)
-* [Videos.](/vid/)
-
+Contacts:
+* [VK](https://vk.com/k1574)
+* [GitHub](https://github.com/k1574)
