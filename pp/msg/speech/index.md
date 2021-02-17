@@ -1,6 +1,8 @@
 Speech
 ======
 
+![Speech skill](/img/icon/fallout/1and2/speech_skill1.webp)
+
 Posts about speech improvement.
 
 Русский язык:
