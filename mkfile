@@ -57,7 +57,7 @@ tree:V:
 run:V: clean
 	goblin ls $PPDIR | entr mk	
 sync:V: minify
-	rsync -ak --delete $PUBDIR $RPUBDIR
+	rsync -ak $DELFLAG $PUBDIR $RPUBDIR
 
 syncrun:VQ:
 	while(true){
