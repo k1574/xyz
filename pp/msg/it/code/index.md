@@ -2,7 +2,9 @@
 
 ![Information techologies](/img/icon/fallout/3andNV/science_skill1.webp)
 
-Hints, guides etc about programming. (coding)
+Stuff about programming.
+
+---
 
 * [GUI](gui);
 * [Frameworks](fw).
