@@ -4,6 +4,6 @@
 
 Hints, guides etc about programming. (coding)
 
-* [X11 programming](/msg/it/code/x);
-* [Frameworks](/msg/it/code/fw).
+* [GUI](gui);
+* [Frameworks](fw).
 

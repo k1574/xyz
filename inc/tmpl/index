@@ -1,5 +1,5 @@
 <{< inc/tg/hd}>
 <{< inc/hd/default}>
 <{< inc/tg/bd}>
-<{! md2htm pub/<{$ name}>/index.md }>
+<{| md2htm <{! goblin noext $PPROOTFILE}>.md}><{#|}>
 <{< inc/tg/tl}>
