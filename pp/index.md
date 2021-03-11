@@ -13,6 +13,7 @@ You can find here:
 * [Posts,](msg)
 * [Documents,](doc)
 * [Images,](img)
+* [Sounds](snd),
 * [Videos.](vid)
 
 Contacts:
