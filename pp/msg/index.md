@@ -5,5 +5,5 @@ Text I type when I am bored.
 ---
 
 * [IT,](it)
-* [Speech.](spk)
-
+* [Speech,](spk)
+* [Random](r).
