@@ -3,7 +3,7 @@
 pwd=`{pwd}
 for(i in $*){
 	builtin cd $i
-	goblin ls | utf8tmpl tmpl '_*' '\_' '\*' | mkmdindex | md2htm
+	goblin ls | mkmdindex | md2htm
 	builtin cd $pwd
 }
 
