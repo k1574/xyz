@@ -28,9 +28,6 @@ TGT = $BUILDFILE
 
 all:VQ: build
 build:V: $PUBDIR $TGT
-minify:V: build
-	for(i in $PUBHTMFILE)
-		$MINIFY $i -o $i
 
 %.jpg %.png %.svg %.mp4 %.m3 %.mkv :N:
 
@@ -56,7 +53,7 @@ tree:V:
 
 run:V: clean
 	goblin ls $PPDIR | entr mk	
-sync:V: minify
+sync:V: build
 	rsync -ak $DELFLAG $PUBDIR $RPUBDIR
 
 syncrun:VQ:

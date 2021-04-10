@@ -1,0 +1,9 @@
+#!/bin/env rc
+
+pwd=`{pwd}
+for(i in $*){
+	builtin cd $i
+	goblin ls | mkmdindex | md2htm
+	builtin cd $pwd
+}
+

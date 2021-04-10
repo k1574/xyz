@@ -2,4 +2,7 @@
 <{< inc/hd/default}>
 <{< inc/tg/bd}>
 <{| md2htm <{! goblin noext $PPROOTFILE}>.md}><{#|}>
+<hr />
+<h2>Index</h2>
+<{| ./exe/mkhtmindex <{! dirname $PPROOTFILE}> }><{#|}>
 <{< inc/tg/tl}>
