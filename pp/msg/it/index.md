@@ -4,7 +4,6 @@ Posts about information technologies. (programming, managing OS, using programs 
 
 ---
 
-* [Coding](code);
-* [Mark up](mu);
+* [Code and mark up;](cm);
 * [Program guides/help/hints/tips/etc](prog).
 
