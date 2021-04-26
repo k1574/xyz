@@ -1,2 +1,7 @@
-k1574.xyz's full source.
+# xyz
 
+xyz is a static content control system,
+initially made for k1574.xyz's. 
+It uses goblin for script commands,
+pp for preprocessing output files to pub directory
+and md2htm to convert Markdown to HTML.
