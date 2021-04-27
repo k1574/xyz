@@ -1,7 +1,7 @@
 # xyz
 
 xyz is a static content control system,
-initially made for k1574.xyz's. 
+initially made for k1574.xyz's which I use as my cloud. 
 It uses goblin for script commands,
-pp for preprocessing output files to pub directory
+pp for preprocessing output files to pub[lic] directory
 and md2htm to convert Markdown to HTML.
