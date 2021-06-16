@@ -1,8 +1,9 @@
 # Techie
 
-Info about electric circuits, soldering etc.
+Info about tech things.
 
 ---
 
-* [Links](lnk).
+* [Electronics](e);
+* [cars](c).
 
