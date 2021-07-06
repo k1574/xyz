@@ -1,6 +1,0 @@
-# Electronics.
-
----
-
-* [Links](lnk).
-

@@ -1,5 +1,0 @@
-# Social engineering
-
----
-
-* [Links](lnk).
