@@ -10,6 +10,7 @@
   * [Improveyourdrawings](https://improveyourdrawings.com/)
     * [How to draw human body](https://improveyourdrawings.com/2018/04/how-to-draw-the-human-body-in-a-3-4-view/)
 * W3
+  * [Mozilla developer info](https://developer.mozilla.org)
   * Components
     * [Tutorial 1](https://www.robinwieruch.de/web-components-tutorial)
     * [Tutorial 2](https://medium.com/blue-harvest-tech-blog/simple-but-effective-web-components-7feb989c26d9)
@@ -22,3 +23,8 @@
   * Xlib manual
     * [PDF book](/doc/lib/it/code/x/xlib.pdf)
     * [Web version on "tronche.com"](https://tronche.com/gui/x/xlib/)
+* Writing
+  * Fantasy
+    * Map generator
+      * [World](https://azgaar.github.io/Fantasy-Map-Generator/)
+      * [City](https://watabou.itch.io/medieval-fantasy-city-generator/)
