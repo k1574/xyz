@@ -28,3 +28,12 @@
     * Map generator
       * [World](https://azgaar.github.io/Fantasy-Map-Generator/)
       * [City](https://watabou.itch.io/medieval-fantasy-city-generator/)
+* Статистика
+  * Россия
+    * [Росстат](https://rosstat.gov.ru/)
+  * Яндекс
+    * [E-Коммерция](https://yandex.ru/company/researches/?tag=ecommerce)
+    * [Медиа](https://yandex.ru/company/researches/?tag=media)
+* IT
+  * OS
+    * [Inferno](inferno)
