@@ -1,14 +1,9 @@
-k1574.xyz
-=========
-
-What is that?
--------------
-
+# k1574.xyz
 Hi. I'm k1574. It's my site.
 
 ---
 
-You can find here:
+## Data
 * [Posts](msg)
 * [Documents](doc)
 * [Images](img)
@@ -16,7 +11,7 @@ You can find here:
 * [Videos](vid)
 * [Bookmarks](bm)
 
-Contacts:
+## Contacts
 * [VK](https://vk.com/k1574/)
 * [GitHub](https://github.com/k1574/)
 * [Miavivo](https://www.miavivo.net/profilo/k1574/)

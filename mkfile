@@ -20,7 +20,13 @@ for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
 }
 '}
 
-BUILDFILE = $PUBHTMFILE $PUBMDFILE $PUBTXTFILE
+PUBTSVFILE = `{eval '
+for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
+	~ $i *.tsv && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
+}
+'}
+
+BUILDFILE = $PUBHTMFILE $PUBMDFILE $PUBTXTFILE $PUBTSVFILE
 WEBFILE = $HTMFILE
 
 INC = `{goblin ls -r 100 inc}
@@ -45,6 +51,10 @@ $PUBDIR/%.md : $INC $PPDIR/%.md
 $PUBDIR/%.txt : $INC $PPDIR/%.txt
 	mkdir -p `{dirname $target}
 	$PP $PPDIR/$stem.txt > $PUBDIR/$stem.txt
+
+$PUBDIR/%.tsv : $INC $PPDIR/%.tsv
+	mkdir -p `{dirname $target}
+	$PP $PPDIR/$stem.tsv > $PUBDIR/$stem.tsv
 
 $PPDIR/% :N:
 
