@@ -9,6 +9,9 @@
 * Draw
   * [Improveyourdrawings](https://improveyourdrawings.com/)
     * [How to draw human body](https://improveyourdrawings.com/2018/04/how-to-draw-the-human-body-in-a-3-4-view/)
+* Рисование
+  * Человек
+    * [Глаза 1](https://artrecept.com/risunok/chelovek/kak-risovat-glaza)
 * W3
   * [Mozilla developer info](https://developer.mozilla.org)
   * Components
