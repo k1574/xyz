@@ -2,31 +2,18 @@
 
 MKSHELL = rc
 
-PUBHTMFILE = `{eval '
-for( i in `{goblin ls -r 100 '$PPDIR'}){
-	~ $i *.htm && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
-}
-'}
+PUBHTMFILE = `{./exe/getpubfile htm}
+PUBMDFILE = `{./exe/getpubfile md}
+PUBTXTFILE = `{./exe/getpubfile txt}
+PUBTSVFILE = `{./exe/getpubfile tsv}
+PUBPNGFILE = `{./exe/getpubfile png}
 
-PUBMDFILE = `{eval '
-for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
-	~ $i *.md && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
-}
-'}
+BUILDFILE = $PUBHTMFILE\
+	$PUBMDFILE\
+	$PUBTXTFILE\
+	$PUBTSVFILE\
+	$PUBPNGFILE\
 
-PUBTXTFILE = `{eval '
-for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
-	~ $i *.txt && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
-}
-'}
-
-PUBTSVFILE = `{eval '
-for( i in `{ goblin ls -r 100 '$PPDIR' } ) {
-	~ $i *.tsv && {echo $i | sed -e s!^'$PPDIR'!'$PUBDIR'!}
-}
-'}
-
-BUILDFILE = $PUBHTMFILE $PUBMDFILE $PUBTXTFILE $PUBTSVFILE
 WEBFILE = $HTMFILE
 
 INC = `{goblin ls -r 100 inc}
@@ -35,10 +22,14 @@ TGT = $BUILDFILE
 all:VQ: build
 build:V: $PUBDIR $TGT
 
-%.jpg %.png %.svg %.mp4 %.m3 %.mkv :N:
+%.svg %.mp4 %.m3 %.mkv :N:
 
 $PUBDIR:
 	mkdir -p $target
+
+$PUBDIR/%.png : $PPDIR/%.png
+	mkdir -p `{dirname $target}
+	cp -f $prereq $target
 
 $PUBDIR/%.htm : $INC $PPDIR/%.htm $PUBDIR/%.md
 	mkdir -p `{dirname $target}

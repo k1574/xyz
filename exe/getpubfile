@@ -1,0 +1,8 @@
+#!/bin/env rc
+
+. mkconfig
+
+ext = $1
+for(i in `{goblin ls -r 100 $PPDIR}){
+	~ $i *.$ext && {echo $i | sed -e s!^$PPDIR!$PUBDIR!}
+}
