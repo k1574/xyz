@@ -4,7 +4,7 @@ Hi. I'm k1574. It's my site.
 ---
 
 ## Data
-* [Posts](msg)
+* [Posts/info/messages](m)
 * [Documents](doc)
 * [Images](img)
 * [Sounds](snd)
