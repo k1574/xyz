@@ -7,12 +7,14 @@ PUBMDFILE = `{./exe/getpubfile md}
 PUBTXTFILE = `{./exe/getpubfile txt}
 PUBTSVFILE = `{./exe/getpubfile tsv}
 PUBPNGFILE = `{./exe/getpubfile png}
+PUBJPGFILE = `{./exe/getpubfile jpg}
 
 BUILDFILE = $PUBHTMFILE\
 	$PUBMDFILE\
 	$PUBTXTFILE\
 	$PUBTSVFILE\
 	$PUBPNGFILE\
+	$PUBJPGFILE\
 
 WEBFILE = $HTMFILE
 
@@ -28,6 +30,10 @@ $PUBDIR:
 	mkdir -p $target
 
 $PUBDIR/%.png : $PPDIR/%.png
+	mkdir -p `{dirname $target}
+	cp -f $prereq $target
+
+$PUBDIR/%.jpg : $PPDIR/%.jpg
 	mkdir -p `{dirname $target}
 	cp -f $prereq $target
 
