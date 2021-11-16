@@ -4,6 +4,7 @@ Hi. I'm k1574. It's my site.
 ---
 
 ## Data
+* [News](n)
 * [Posts/info/messages](m)
 * [Documents](doc)
 * [Images](img)
