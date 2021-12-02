@@ -6,8 +6,9 @@ Stuff about programming.
 
 ---
 
-* [GUI](gui);
-* [Frameworks](fw).
-* [Markdown](md);
-* [WWW, CSS, HTML...](w3).
+* [GUI](gui)
+* [Frameworks](fw)
+* [Markdown](md)
+* [W3](w3)
+* [Databases](db)
 
