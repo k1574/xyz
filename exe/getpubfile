@@ -1,6 +1,6 @@
 #!/bin/env rc
 
-. mkconfig
+. ./mkconfig
 
 ext = $1
 for(i in `{goblin ls -r 100 $PPDIR}){
