@@ -39,5 +39,9 @@
     * [Медиа](https://yandex.ru/company/researches/?tag=media)
 * IT
   * OS
-    * [Inferno](inferno)
+    * [Linux](linux)
     * [OpenBSD](openbsd)
+    * [Inferno](inferno)
+* RP
+  * DND
+    * [5](rp/dnd/5)
