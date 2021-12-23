@@ -1,5 +1,12 @@
 # News
 
+# Thu Dec 23 08:26:58 PM +05 2021
+
+Freelance on exchanges sucked so much.
+Should become a real net-mercenary.
+Got a few real orders already.
+My first REAL money.
+
 # Mon Dec  6 08:13:48 PM +05 2021
 
 I'm gonna leave my University. It sucked so much.
