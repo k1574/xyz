@@ -105,6 +105,7 @@ PR's welcome for all edits or new projects.
 * [Cat-v papers index](http://doc.cat-v.org/inferno/4th_edition/)
 * [Vita Nuova papers index](http://www.vitanuova.com/inferno/papers)
 * [The Limbo Programming Language](http://www.vitanuova.com/inferno/papers/limbo.pdf)
+* [The Limbo Programming Language(HTML version)](http://www.vitanuova.com/inferno/papers/limbo.html)
 * [The Limbo Programming Language Addendum](http://www.vitanuova.com/inferno/papers/addendum.pdf)
 * [Limbo Basics](http://www.vitanuova.com/inferno/papers/limbobasics.html)
 * [Limbo Programming](http://www.vitanuova.com/inferno/papers/limbomore.html)
